@@ -8,13 +8,19 @@ function Navbar() {
     <nav className="nav">
       <div className="container">
         <div className="logo">
-          <a href="#">YourLogo</a>
+          <a href="/">YourLogo</a>
         </div>
         <div className="main_list" id={mainListDiv}>
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/login">Log In</Link></li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/login">Log In</Link>
+            </li>
           </ul>
         </div>
       </div>
