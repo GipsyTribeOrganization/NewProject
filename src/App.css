@@ -13,6 +13,18 @@ h1{
     width: 200px;
     text-align: center;
 }
+
+div.menu_pages {
+    width: 170px;
+    height: 100%;
+    position: center;
+    line-height: 65px;
+    text-align: center;
+    background-color: cornflowerblue;
+    margin-top: 85px;
+    margin-left: 10px;
+}
+
 #wrapper{
     position: absolute;
     width: 320px;
