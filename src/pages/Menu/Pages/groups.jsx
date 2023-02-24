@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Groups() {
-  return <h1>Groups list</h1>;
+  return <p>Group list</p>;
 }
 
 export default Groups;

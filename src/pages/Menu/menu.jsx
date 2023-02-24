@@ -5,12 +5,11 @@ import '../../App.css';
 function Menu() {
   return (
     <div className="menu_pages">
-      <nav>
-        <Link to="/menu/groups"><h2>Groups list</h2></Link>
-        <Link to="/menu/channels"><h2>Channels</h2></Link>
-        <Link to="/menu/message"><h2>Message</h2></Link>
-        <Link to="/menu/accounts"><h2>Accounts</h2></Link>
-      </nav>
+      <Link to="/groups"><h2>Groups list</h2></Link>
+      <Link to="/channels"><h2>Channels</h2></Link>
+      <Link to="/message"><h2>Message</h2></Link>
+      <Link to="/accounts"><h2>Accounts</h2></Link>
+      <Link to="/home">Back</Link>
     </div>
   );
 }
