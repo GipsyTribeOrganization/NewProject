@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Channels() {
-  return <div>Channels</div>;
+  return <h2>Channels</h2>;
 }
 
 export default Channels;

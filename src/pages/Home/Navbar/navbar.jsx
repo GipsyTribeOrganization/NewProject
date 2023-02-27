@@ -19,11 +19,6 @@ function Navbar() {
           <NavLink style={navLinkStyles} to="/login">
             Login
           </NavLink>
-          <p>
-            <NavLink style={navLinkStyles} to="/menu">
-              Menu
-            </NavLink>
-          </p>
         </div>
       </div>
     </nav>
