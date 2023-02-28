@@ -1,7 +1,11 @@
 import React from 'react';
 
 function Message() {
-  return <h2>Message</h2>;
+  return (
+    <div className="message">
+      <h1>Message</h1>
+    </div>
+  );
 }
 
 export default Message;
