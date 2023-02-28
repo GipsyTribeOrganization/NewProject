@@ -1,7 +1,11 @@
 import React from 'react';
 
 function Accounts() {
-  return <h1>Accounts</h1>;
+  return (
+    <div className="accounts">
+      <h1>Accounts list</h1>
+    </div>
+  );
 }
 
 export default Accounts;
